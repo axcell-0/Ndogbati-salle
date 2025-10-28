@@ -77,7 +77,7 @@ export default function Gallery() {
   return (
     <section className="py-16 bg-white">
       <div className="max-w-6xl mx-auto px-6 text-center">
-        <h2 className="text-sm tracking-[2px] uppercase text-pink-600 mb-6 font-semibold">
+        <h2 className="text-lg tracking-[2px] uppercase text-pink-600 mb-6 font-semibold">
           Our Gallery
         </h2>
 
