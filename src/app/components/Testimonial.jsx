@@ -76,7 +76,7 @@ export default function Testimonials() {
   return (
     <section className="py-16 bg-white">
       <div className="max-w-6xl mx-auto px-6 text-center">
-        <h2 className="text-lg tracking-[2px] uppercase text-pink-600 mb-6 font-semibold">
+        <h2 className="text-sm tracking-[2px] uppercase text-pink-600 mb-6 font-semibold">
           What Our Couples Say
         </h2>
 
@@ -84,12 +84,12 @@ export default function Testimonials() {
           {testimonials.map((item, index) => (
             <div
               key={index}
-              className="flex flex-col bg-white rounded-2xl shadow-md p-6 mx-2"
+              className="flex flex-col bg-white rounded-2xl shadow-md p-6 mx-2 h-full"
             >
-              <div className="mb-4 flex justify-center gap-4">
+              <div className="mb-4">
                 <span className="text-xl text-yellow-500">★★★★★</span>
               </div>
-              <p className="text-gray-600 text-sm italic">{item.quote}</p>
+              <p className="text-gray-600 text-sm italic flex-grow">{item.quote}</p>
               <p className="text-gray-800 text-sm font-semibold mt-4">{item.author}</p>
             </div>
           ))}
