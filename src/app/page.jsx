@@ -1,6 +1,7 @@
+import ContactForm from './components/ContactForm'
 import Features from './components/Features'
 import Gallery from './components/Gallery'
-import Testimonials from './components/Testimonial'
+import Testimonials from './components/Testimonials'
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Features />
       <Gallery/>
       <Testimonials/>
+      <ContactForm/>
     </main>
   )
 }
