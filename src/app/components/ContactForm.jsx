@@ -30,22 +30,22 @@ export default function ContactForm() {
             <input
               type="text"
               placeholder="Full Name"
-              className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-pink-500"
+              className="w-full border border-gray-300 text-white sm:text-black rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-pink-500 placeholder-pink-500 placeholder-opacity-75 placeholder-italic"
             />
             <input
               type="email"
               placeholder="Email Address"
-              className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-pink-500"
+              className="w-full border border-gray-300 text-white sm:text-black rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-pink-500 placeholder-pink-500 placeholder-opacity-75 placeholder-italic"
             />
             <input
               type="text"
               placeholder="Desired Date"
-              className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-pink-500"
+               className="w-full border border-gray-300 text-white sm:text-black rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-pink-500 placeholder-pink-500 placeholder-opacity-75 placeholder-italic"
             />
             <textarea
               placeholder="Tell us about your event..."
               rows="4"
-              className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-pink-500"
+               className="w-full border border-gray-300 text-white sm:text-black rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-pink-500 placeholder-pink-500 placeholder-opacity-75 placeholder-italic"
             ></textarea>
 
             <button
