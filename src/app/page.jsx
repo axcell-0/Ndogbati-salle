@@ -13,9 +13,11 @@ export default function Home() {
         <p className="mt-4 text-lg md:text-xl max-w-xl">
           Welcome to Ndogpassi Salle de Banquet
         </p>
-        <button className="mt-6 px-8 py-3 bg-white text-black rounded-full font-semibold hover:bg-gray-200 transition-all">
-          Book your Date
-        </button>
+        <a href="/#form">
+          <button className="mt-6 px-8 py-3 bg-white text-black rounded-full font-semibold hover:bg-gray-200 transition-all">
+            Book your Date
+          </button>
+        </a>
       </section>
       <Features />
       <Gallery/>
